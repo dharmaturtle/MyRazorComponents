@@ -13,4 +13,10 @@
     <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.Core" Version="4.4.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Watch Include="**\*.cshtml" />
+    <Watch Include="**\*.razor" />
+    <Watch Include="**\(!.g.)*.cs" />
+  </ItemGroup>
+
 </Project>
