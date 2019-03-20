@@ -68,6 +68,14 @@
               "version": "[3.0.0-preview3-27504-2, )",
               "autoReferenced": true
             },
+            "SimpleInjector": {
+              "target": "Package",
+              "version": "[4.4.3, )"
+            },
+            "SimpleInjector.Integration.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[4.4.3, )"
+            },
             "runtime.win-x64.Microsoft.NETCore.DotNetAppHost": {
               "include": "None",
               "suppressParent": "All",
